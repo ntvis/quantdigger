@@ -76,10 +76,10 @@ def find_package_data(
 PACKAGE = "quantdigger"
 NAME = "QuantDigger"
 DESCRIPTION = "量化交易PYTHON回测系统"
-AUTHOR = "QuantDigger"
-AUTHOR_EMAIL = "QuantDigger@QuantDigger.com"
+AUTHOR = "QuantFans"
+AUTHOR_EMAIL = "dingjie.wang@foxmail.com"
 URL = "https://github.com/QuantFans/quantdigger"
-VERSION = 0.14
+VERSION = "0.2.00" 
 
 
 setup(
@@ -89,7 +89,7 @@ setup(
     long_description=read("./README.rst").decode('utf-8'),
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
-    license="BSD",
+    license="MIT",
     url=URL,
     packages=find_packages(),
     package_data=find_package_data(PACKAGE, only_in_packages=False),
@@ -97,7 +97,7 @@ setup(
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: BSD License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
     ],
